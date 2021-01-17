@@ -20,7 +20,7 @@ def multiply(num1, num2):
 
 def divide(num1, num2):
     """Divide the first input by the second and return the result."""
-    divide_num = num1//num2
+    divide_num = float(num1/num2)
     return divide_num
 
 
